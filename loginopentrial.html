@@ -1,0 +1,129 @@
+
+<html>
+    <head>
+        <style>
+        .cnt{
+  background: 
+    /*linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),*/
+    url("a1.jpg"); 
+    color:white;
+font-size: 30px;
+}
+.cnt1{
+  background-color: white;
+}
+
+
+/*button*/
+
+.btn-group button {
+  background:url("a1.jpg");  /* Green background */
+ /* border: 3px solid white; /* Green border */
+  color: white; /* White text */
+  padding:10px 34px;/* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+text-align: center;
+ border-left: 2px solid white; 
+   border-top: 2px solid white;
+    border-bottom: 2px solid white;
+   border-right: 2px solid white;
+}
+
+/*uname pwd design*/
+.input-group{
+            top:180px;
+            position: absolute;
+            width: 280px;
+            transition: .2s;
+            padding-bottom:30px;
+            text-align: center;
+            padding-left: 620px;
+        }
+        .input-field{
+            width: 100%;
+            /*padding: 10px 0;*/
+            margin: 5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-bottom: 1px solid #999;
+            outline: none;
+            padding-bottom: 20px;
+        }
+
+/*design ends*/
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}/*button ends*/
+
+p{
+  color:gray;
+}
+h1{
+    font-size: 45px;
+  padding-top: 70px;
+ 
+}
+button{
+    padding-left: 35px;
+}
+b,a{
+    font-size: 17px;
+    color:gray;
+    text-align: left;
+    padding-left: 15px;
+}
+        </style>
+    </head>
+
+<body>
+<section class="w3-tangerine w3-hover-white cnt">
+    <center>
+      <h1 class="w3-xxxlarge w3-text-white cnt">Q-Eventer<br><br><br><br><br><br>
+        <button class=" btn-group ">Login</button>
+         <button class="btn-group ">Signup</button>
+      </h1>
+     <!---- <h3 class="w3-xxlarge w3-text-white">Get in touch!</h3>-->
+    </center></section>
+    <center>
+        <p>Welcome back!</p></center>
+    <form class="input-group btn-group ">
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br><br><br>
+        <br><br>
+        
+        
+        <!--<input type="text" class="input-field" placeholder="First name" required> 
+       <input type="text" class="input-field" placeholder="Last name" required> -->
+           <input type="text" class="input-field" placeholder="Username" required> 
+         <!--  <input type="text" class="input-field" placeholder="Email" required> -->
+           <input type="text" class="input-field" placeholder="Password" required><br><br>
+          <!-- <input type="text" class="input-field" placeholder="Confirm Password" required>-->
+          <input type="checkbox" ><b>Remember me</b><a href="#">Forgot Password?</a><br><br><br>
+
+         <button>Login</button>    
+         </form>
+    </center>
+    </div>
+  </div>
+</body>
+  </html>

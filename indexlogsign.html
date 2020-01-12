@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <style>
+        .cnt{
+  background: 
+    /*linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),*/
+    url("a1.jpg"); 
+    color:white;
+font-size: 60px;
+height:500px;
+text-align: center;
+padding-top: 120px;
+}
+
+
+/*button*/
+
+.btn-group button {
+  background:url("a1.jpg");  /* Green background */
+ /* border: 3px solid white; /* Green border */
+  color: white; /* White text */
+  padding:10px 34px;/* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+text-align: center;
+ border-left: 2px solid white; 
+   border-top: 2px solid white;
+    border-bottom: 2px solid white;
+   border-right: 2px solid white;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}/*button ends*/
+
+</style>
+    </head>
+
+<body>
+<section class="w3-tangerine w3-hover-white cnt">
+    <center>
+      <h1 class="cnt">Q-Eventer<br><br><br><br><br>
+        <button class="btn-group">Login</button>    
+         <button class="btn-group">Signup</button>
+      </h1>

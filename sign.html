@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color:white;
+  font-size: 60px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background:/*;background: 
+   linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),*/
+    url("a1.jpg"); 
+  background-size: cover;
+  height: 100vh;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-right: 60px;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+h6{
+    font-size: 25px;
+    color:brown;
+    padding-bottom: 350px;
+    padding-top: 100px;
+}
+b{
+    font-size:15px;
+    color:grey;
+    text-align: left;
+    padding-left:5px;
+}
+
+/*uname pwd design*/
+.input-group{
+            top:180px;
+            position: absolute;
+            width: 280px;
+            transition: .2s;
+            padding-bottom:30px;
+        }
+        .input-field{
+            width: 100%;
+            /*padding: 10px 0;*/
+            margin: 5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-bottom: 1px solid #999;
+            outline: none;
+            padding-bottom: 20px;
+        }
+        .check-box{
+          padding-left: 10px;
+        }
+
+
+/*design ends*/
+
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <p>Q-Eventer</p>
+  </div>
+</div>
+
+<div class="split right">
+ <div class="centered">
+    <h6>SIGN UP</h6>
+  <form class="input-group">
+    <input type="text" class="input-field" placeholder="First name" required> 
+
+    <input type="text" class="input-field" placeholder="Username" required> 
+    <input type="text" class="input-field" placeholder="Email" required> 
+    <input type="text" class="input-field" placeholder="Password" required>
+    <input type="text" class="input-field" placeholder="Confirm Password" required>
+    <input type="checkbox" class="check-box"><b> I agree with terms and conditions</b><br> 
+ 
+  <button>Sign up</button><br>
+<b>Already have an account ? Sign in</b>
+  </form>
+
+
+  <!---
+<h6>SIGNUP</h6>
+<b> Please complete to choose your account</b>
+<b>First name<hr></b> <b>Last name<hr></b>
+<b>Username<hr></b>
+<b>Email<hr></b>
+<b>Password<hr></b>
+<b> Confirm Password<hr></b>
+<input type="checkbox"/><b>I agree with terms and conditions</b><br>
+<button>Sign up</button>
+<b> Already have an account? Sign in</b>-->
+</div>
+</div>
+     
+</body>
+</html> 
